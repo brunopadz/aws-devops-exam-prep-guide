@@ -21,9 +21,9 @@ Feel free to contribute (translating, adding more content or fixing typos)! :)
 * [CI / CD](0-concepts/0-1_ci-cd.md)
 * [Deployment Types](0-concepts/0-2_deployment_types.md)
 * [A/B Testing](0-concepts/0-3_ab.md)
-* Bootstrapping
-* Immutable Infrastructure
-* Containers
+* [Bootstrapping](0-concepts/0-4_bootstrapping.md)
+* [Immutable Infrastructure](0-concepts/0-5_immutable_infra.md)
+* [Containers](0-concepts/0-6_containers.md)
 
 ### 1. CI, CD and Automation
 
