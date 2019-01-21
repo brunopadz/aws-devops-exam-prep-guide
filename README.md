@@ -7,6 +7,14 @@
 * Multiple choice and multiple-answer questions
 * 170 minutes to complete the exam
 * Exam registration fee is USD 300
+
+| Domain  | % of examination |
+| ------------- | ------------- |
+| 1: Continuous Delivery and Process Automation  | 55%  |
+| 2: Monitoring, Metrics and Logging  | 20%  |
+| 3: Security, Governance and Validation  | 10%  |
+| 4: High Availability and Elasticity  | 15%  |
+
 * [More info](https://d1.awsstatic.com/training-and-certification/docs-devops-pro/AWS_certified_devops_engineer_professional_blueprint.pdf)
 
 ## About the guide
@@ -18,15 +26,25 @@ Feel free to contribute (translating, adding more content or fixing typos)! :)
 ## Index
 
 ### 0. Concepts
-* [CI / CD](0-concepts/0-1_ci-cd.md)
-* [Deployment Types](0-concepts/0-2_deployment_types.md)
-* [A/B Testing](0-concepts/0-3_ab.md)
-* [Bootstrapping](0-concepts/0-4_bootstrapping.md)
-* [Immutable Infrastructure](0-concepts/0-5_immutable_infra.md)
-* [Containers](0-concepts/0-6_containers.md)
+* [CI / CD](0-concepts/core.md)
+* [Deployment Types](0-concepts/core.md)
+* [A/B Testing](0-concepts/core.md)
+* [Bootstrapping](0-concepts/core.md)
+* [Immutable Infrastructure](0-concepts/core.md)
+* [Containers](0-concepts/core.md)
 
-### 1. CI, CD and Automation
-
+### 1. Continuous Delivery and Process Automation
+* CloudFormation
+    * What's CloudFormation?
+    * CloudFormation Structure
+    * Stack Creation
+    * Stack Updates
+    * Resource Deletion Policies
+    * Nesting
+    * Wait Conditions and Handlers
+    * Custom Resources
+* OpsWorks
+* Elastic Beanstalk
 
 ### 2. Monitoring, Metrics and Logging
 
