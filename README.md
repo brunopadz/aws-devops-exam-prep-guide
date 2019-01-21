@@ -26,23 +26,23 @@ Feel free to contribute (translating, adding more content or fixing typos)! :)
 ## Index
 
 ### 0. Concepts
-* [CI / CD](0-concepts/core.md)
-* [Deployment Types](0-concepts/core.md)
-* [A/B Testing](0-concepts/core.md)
-* [Bootstrapping](0-concepts/core.md)
-* [Immutable Infrastructure](0-concepts/core.md)
-* [Containers](0-concepts/core.md)
+* [CI / CD](0-concepts/core.md#continuous-integration-and-continous-delivery)
+* [Deployment Types](0-concepts/core.md#deployment-types)
+* [A/B Testing](0-concepts/core.md#ab-testing)
+* [Bootstrapping](0-concepts/core.md#bootstrapping)
+* [Immutable Infrastructure](0-concepts/core.md#immutable-infrastructure)
+* [Containers](0-concepts/core.md#containers)
 
 ### 1. Continuous Delivery and Process Automation
-* CloudFormation
-    * What's CloudFormation?
-    * CloudFormation Structure
-    * Stack Creation
-    * Stack Updates
-    * Resource Deletion Policies
-    * Nesting
-    * Wait Conditions and Handlers
-    * Custom Resources
+* [CloudFormation](1-ci_cd_automation/cloudformation.md#cloudformation)
+    * [What's CloudFormation?](1-ci_cd_automation/cloudformation.md#whats-cloudformation)
+    * [CloudFormation Structure](1-ci_cd_automation/cloudformation.md#cloudformation-structure)
+    * [Stack Creation](1-ci_cd_automation/cloudformation.md#stack-creation)
+    * [Stack Updates](1-ci_cd_automation/cloudformation.md#stack-updates)
+    * [Resource Deletion Policies](1-ci_cd_automation/cloudformation.md#resource-deletion-policies)
+    * [Nesting](1-ci_cd_automation/cloudformation.md#cloudformation-nesting)
+    * Wait Conditions and Handlers (to review)
+    * Custom Resources (to review)
 * OpsWorks
 * Elastic Beanstalk
 
