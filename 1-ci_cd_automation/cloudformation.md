@@ -20,7 +20,7 @@
 
 ### Template Anatomy
 
-```
+```json
 {
     "AWSTemplateFormatVersion": "version date",
 
@@ -84,7 +84,7 @@ The following topic covers the structure of a CloudFormation template
 
 The following template asks for a bucket name:
 
-```
+```json
 { 
     "AWSTemplateFormatVersion": "version date",
 
@@ -112,7 +112,7 @@ For further reading, consult the [AWS Docs](https://docs.aws.amazon.com/AWSCloud
 
 With the following template, it's possible to create a S3 bucket without a name. If the bucket name property is not specified this template could be **applied 5 times to create 5 resources**, where the names can be auto-generated, **allowing re-use of the template in a larger scale**.
 
-```
+```json
 {
     "Resources": {
         "Bucket": {
@@ -126,7 +126,7 @@ It's also worth noting that when the stack is deleted, the resources are also de
 
 It's not a good practice to use static usernames and passwords, to solve this problem it's possible to reference Parameters within the Resources using the function **`Ref`**, like the following example:
 
-```
+```json
 "Parameters": {
     "DBUser": {
         "Type": "String"
@@ -159,7 +159,7 @@ It's not a good practice to use static usernames and passwords, to solve this pr
 
 In the next example, a new S3 bucket is created. An output called "BucketName" references the Bucket object and the result is the bucket name as an output.
 
-```
+```json
 {
     "Resources": {
         "Bucket": {
@@ -251,7 +251,7 @@ Steps when creating a stack:
 * DependsOn is controlled via a `DependsOn` attribute in an object. It references another `cfn` resource, but doesn't use the function.
 * It can be a string referencing one object
 
-```
+```json
 "EC2": {
     "Type": "AWS::EC2::Instance",
         "DependsOn": "RDS"
@@ -260,7 +260,7 @@ Steps when creating a stack:
 
 * Or it can be an array
 
-```
+```json
 "EC2": {
     "Type": "AWS::EC2::Instance",
         "DependsOn": ["RDS1", "RDS2"]
@@ -271,7 +271,7 @@ Steps when creating a stack:
 
 * The first step to update a stack is check the stack policy. Updates can be prevented as follows:
 
-```
+```json
 "Statement": [
     {
         "Effect": "Deny",
@@ -307,7 +307,7 @@ Steps when creating a stack:
     * Snapshot
 * DeletionPolicy must be set at the top level of resource not inside the object properties
 
-```
+```json
 "myS3Bucket": {
     "Type": "AWS::S3::Bucket",
     "DeletionPolicy": "Retain" || "Delete" || "Snapshot"
@@ -347,7 +347,7 @@ Steps when creating a stack:
 
 To create a nested template:
 
-```
+```json
 "SQLStack": {
     "Type": "AWS::CloudFormation::Stack"
     "Properties": {
