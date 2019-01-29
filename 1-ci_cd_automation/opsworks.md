@@ -166,3 +166,26 @@ To rollback:
 
 ## BerkShelf and Databags
 
+## Auto-healing
+
+* Each OpsWorks instance has an agent installed. This agent performs a heartbeat style health check with OpsWorks Orchestration Engine.
+* If this heartbeat fails for 5 minutes, OpsWorks marks the instance as unhealthy and performs an auto-heal process.
+* Actions performed by auto-heal depends on the circumstance under which is initiated.
+* For EBS-backed instances the stop/start workflow is:
+    1. Online
+    2. Stopping
+    3. Stopped
+    4. Requested
+    5. Pending
+    6. Booting
+    7. Online
+* For Instance Store instances the stop/start workflow is:
+    1. Online
+    2. Shutting down
+    3. Requested
+    4. Pending
+    5. Booting
+    6. Online
+* Auto-healing won't recover from serious instance corruption or if the agent is damaged.
+* Auto-healing isn't a performance response, it's a **failure** response. 
+

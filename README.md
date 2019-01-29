@@ -52,7 +52,10 @@ Feel free to contribute (translating, adding more content or fixing typos)! :)
     * [Applications](1-ci_cd_automation/opsworks.md#applications)
     * [create-deployment command](1-ci_cd_automation/opsworks.md#create-deployment-command)
     * Berkshelf and Databags
+    * [Auto-healing](1-ci_cd_automation/opsworks.md#auto-healing)
 * Elastic Beanstalk
+    * What's Elastic Beanstalk
+    * 
 
 ### 2. Monitoring, Metrics and Logging
 
