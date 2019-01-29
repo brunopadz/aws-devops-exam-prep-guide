@@ -1,6 +1,6 @@
 # AWS DevOps Engineer Professional Preparation Guide
 
-> ⚠️ This preparation guide is based on **my studies** of courses from A Cloud Guru and Linux Academy. ️⚠️
+> ⚠️ This preparation guide is based on **my studies** taking courses from A Cloud Guru, Linux Academy and some videos at Safari Online (O'Reilly). ️⚠️
 
 ## About the exam
 
@@ -43,7 +43,15 @@ Feel free to contribute (translating, adding more content or fixing typos)! :)
     * [Nesting](1-ci_cd_automation/cloudformation.md#cloudformation-nesting)
     * Wait Conditions and Handlers (to review)
     * Custom Resources (to review)
-* OpsWorks
+* [OpsWorks](1-ci_cd_automation/opsworks.md#opsworks)
+    * [What's OpsWorks](/1-ci_cd_automation/opsworks.md#whats-opsworks)
+    * [Structure](/1-ci_cd_automation/opsworks.md#structure)
+    * [Stacks and Layers](1-ci_cd_automation/opsworks.md#stacks-and-layers)
+    * [Lifecycle Events](1-ci_cd_automation/opsworks.md#lifecycle-events)
+    * [Instances](/1-ci_cd_automation/opsworks.md#instances)
+    * [Applications](1-ci_cd_automation/opsworks.md#applications)
+    * [create-deployment command](1-ci_cd_automation/opsworks.md#create-deployment-command)
+    * Berkshelf and Databags
 * Elastic Beanstalk
 
 ### 2. Monitoring, Metrics and Logging
