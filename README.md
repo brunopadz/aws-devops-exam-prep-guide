@@ -53,13 +53,22 @@ Feel free to contribute (translating, adding more content or fixing typos)! :)
     * [create-deployment command](1-ci_cd_automation/opsworks.md#create-deployment-command)
     * Berkshelf and Databags
     * [Auto-healing](1-ci_cd_automation/opsworks.md#auto-healing)
-* Elastic Beanstalk
+* [Elastic Beanstalk](1-ci_cd_automation/beanstalk.md)
     * [What's Elastic Beanstalk](1-ci_cd_automation/beanstalk.md#whats-elastic-beanstalk)
     * [Components](1-ci_cd_automation/beanstalk.md#components)
     * [Extending Elastic Beanstalk with ebextensions](1-ci_cd_automation/beanstalk.md#ebextensions)
     * [Docker](1-ci_cd_automation/beanstalk.md#docker)
 
 ### 2. Monitoring, Metrics and Logging
+* [CloudWatch](2-monitoring_metrics_logging/cloudwatch.md#cloudwatch)
+    * [What's CloudWatch](2-monitoring_metrics_logging/cloudwatch.md#whats-cloudwatch)
+    * [Custom Metrics](2-monitoring_metrics_logging/cloudwatch.md#custom-metrics)
+    * [CloudWatch Alarms](2-monitoring_metrics_logging/cloudwatch.md#cloudwatch-alarms)
+    * [CloudWatch Logs](2-monitoring_metrics_logging/cloudwatch.md#cloudwatch-logs)
+    * [CloudWatch Filters](2-monitoring_metrics_logging/cloudwatch.md#cloudwatch-filters)
+    * [CloudWatch Events](2-monitoring_metrics_logging/cloudwatch.md#cloudwatch-events)
+
+* [CloudTrail](2-monitoring_metrics_logging/cloudtrail.md)
 
 ### 3. Security, Governance and Validation
 
