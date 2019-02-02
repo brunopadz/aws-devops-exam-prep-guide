@@ -72,6 +72,10 @@ Feel free to contribute (translating, adding more content or fixing typos)! :)
 
 ### 3. Security, Governance and Validation
 
+* [Delegation and Federation](3-security/delegation-federation.md)
+    * [Corporate Identity Federation](3-security/delegation-federation.md#corporate-identity-federation)
+    * [Web Identity Federation](3-security/delegation-federation.md#web-identity-federation)
+
 ### 4. HA and Elasticity
 
 ### 5. Operations
