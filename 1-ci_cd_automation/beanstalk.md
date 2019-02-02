@@ -39,7 +39,7 @@
         * Go
         * Python
 
-## Extending Elastic Beanstalk with ebextensions
+## ebextensions
 
 * It's a configuration folder within EB application bundle
 * ebextensions allows granular configuration of the environment and customization of its resources (EC2, ELB and others)
@@ -47,4 +47,18 @@
     * `option_settings`: allows declaration of global configuration options
     * `resources`: allows to specify additional resources to provision in the environment
     * `packages`, `sources`, `files`, `users`, `groups`, `commands`, `container_commands` and `service` allow customization of the EC2 instances as part of your environment.
+
+
+## Docker 
+
+* Supported Docker platforms:
+    * Python
+    * Ruby
+    * PHP
+    * NodeJS
+    * Go
+* For unsupported platform, it's necessary to build a Docker container with desired configurations or use a image from a registry.
+* To deploy a container from an existing registry, the `Dockerrun.aws.json` file needs to be configured. This file defines the registry configuration, the port to be exposed and mappings.
+* When using a private registry, the `.dockercfg` file needs to be present and configured. It contains all the authentication information. It's stored on S3 in a bucket in the same region as Elastic Beanstalk env.
+
 

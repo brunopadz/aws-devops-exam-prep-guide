@@ -54,8 +54,10 @@ Feel free to contribute (translating, adding more content or fixing typos)! :)
     * Berkshelf and Databags
     * [Auto-healing](1-ci_cd_automation/opsworks.md#auto-healing)
 * Elastic Beanstalk
-    * What's Elastic Beanstalk
-    * 
+    * [What's Elastic Beanstalk](1-ci_cd_automation/beanstalk.md#whats-elastic-beanstalk)
+    * [Components](1-ci_cd_automation/beanstalk.md#components)
+    * [Extending Elastic Beanstalk with ebextensions](1-ci_cd_automation/beanstalk.md#ebextensions)
+    * [Docker](1-ci_cd_automation/beanstalk.md#docker)
 
 ### 2. Monitoring, Metrics and Logging
 
